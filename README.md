@@ -27,9 +27,18 @@ docs/
 │   ├── preference-learning.md     # 用户偏好学习机制
 │   └── llm-judge-prompt.md        # LLM 视觉判断 prompt 工程
 │
-└── market/                # 市场与竞品
-    └── competitive-analysis.md    # 竞品分析与差异化定位
+├── market/                # 市场与竞品
+│   └── competitive-analysis.md    # 竞品分析与差异化定位
+│
+└── reference/             # 外部参考（官方政策整理）
+    └── harmonyos-incentive-2026.md  # 激励计划 2026 报名与规则
 ```
+
+## Agent 开发约定
+
+- [AGENTS.md](AGENTS.md) — AI 在本仓库的工作宪法（MVP 范围、Git 约定）
+- [ideas-inbox.md](ideas-inbox.md) — 暂不实现的想法收件箱
+- `.cursor/skills/shot-flow-mvp-guard/` — MVP 范围守卫 skill
 
 ## 核心思路速查
 
